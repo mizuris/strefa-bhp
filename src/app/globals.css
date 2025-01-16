@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+body {
+  font-family: var(--font-francker-light);
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.text-orange-600 {
+  color: #f59000;
+}
+
+.bg-orange-600 {
+  background-color: #f59000;
+}
+
+.hover\:bg-orange-700:hover {
+  background-color: #ffcc00;
+}
+
+.hover\:text-orange-500:hover {
+  color: #ffcc00;
+}
+
+.font-francker-regular {
+  font-family: var(--font-francker-regular);
+}
+
+.font-francker-light {
+  font-family: var(--font-francker-light);
+}
+
+.slick-dots {
+  bottom: 25px;
+}
+
+.slick-dots li button:before {
+  color: white;
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white;
+  opacity: 1;
+}
