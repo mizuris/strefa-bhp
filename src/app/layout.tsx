@@ -3,12 +3,12 @@ import localFont from "next/font/local";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
-export const FranckerRegular = localFont({
+const FranckerRegular = localFont({
   src: "./assets/fonts/Francker W06 Condensed Regular.ttf",
   variable: "--font-francker-regular",
 });
 
-export const FranckerLight = localFont({
+const FranckerLight = localFont({
   src: "./assets/fonts/Francker W06 Condensed X Light.ttf",
   variable: "--font-francker-light",
 });
